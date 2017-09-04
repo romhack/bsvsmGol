@@ -1,0 +1,21 @@
+name:                bvsmGol
+version:             0.1.0.0
+synopsis:            Romhacking tool
+description:         Please see README.md
+homepage:            https://github.com/romhack/bvsmGol#readme
+license:             MIT
+license-file:        LICENSE
+author:              Griever
+copyright:           2017 Griever
+category:            Compression
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable bvsmGol
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, bytestring, containers, binary, parsec, parsec-numbers, split
+  other-modules:       RomhackLib
+  ghc-options:         -Wall
