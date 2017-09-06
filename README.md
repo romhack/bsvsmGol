@@ -7,7 +7,7 @@ Synopsis:
 ```
                        
 bvsmGol -d <file>  Decompress script from given ROM file to script.txt.    
-bvsmGol -c <file>  Compress script.txt and inssert in given ROM file.           
+bvsmGol -c <file>  Compress script.txt and insert in given ROM file.           
             
 Options:
 -h   show help  
